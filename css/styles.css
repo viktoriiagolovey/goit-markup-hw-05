@@ -458,12 +458,13 @@ a {
   flex-direction: column;
   gap: 16px;
   max-width: 264px;
+  margin-right: 120px;
 }
 .container.footer {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  gap: 120px;
+
 }
 .social.footer {
   gap: 16px;
@@ -480,9 +481,10 @@ a {
   background-color: #31d0aa;
 }
 .footer-form{
-  display: flex;
-  flex-wrap: wrap;
+  display: flexbox;
   margin-left: auto;
+  flex-wrap: wrap;
+  
 }
 .subcribe-title{
   font-weight: 500;
@@ -657,7 +659,7 @@ transition: border-color 150ms ease-in;
   fill: #2e2f42;
   pointer-events: none;
   transition: 150ms ease-in;
-  transition-property: color;
+  transition-property: fill;
 }
 .feedback-input:focus + .feedback-icon{
   fill: #4d5ae5;
