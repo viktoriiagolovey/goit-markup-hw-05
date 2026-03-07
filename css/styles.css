@@ -480,6 +480,10 @@ padding-bottom: 72px;
 .link-socials.footer:focus {
   background-color: #31d0aa;
 }
+.footer-form{
+  display: ;
+  flex-wrap: wrap;
+}
 .subcribe-title{
   font-weight: 500;
 font-size: 16px;
@@ -502,9 +506,17 @@ letter-spacing: 0.04em;
 background-color: transparent;
 outline:transparent;
 padding: 8px 0 8px 16px;
-
-
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.email::placeholder { 
+  color: #fff;
+ }
+
+.email:hover,
+.email:focus{
+  border-color: #31d0aa;
+}
+
 .input-btn{
   display: inline-flex;
   gap: 24px;
@@ -515,6 +527,8 @@ padding: 8px 0 8px 16px;
 height: 40px;
 align-items: center;
 justify-content: center;
+gap: 16px;
+padding: 8px 24px;
 }
 .hero-button.footer .icon-send{
   width: 24px;
