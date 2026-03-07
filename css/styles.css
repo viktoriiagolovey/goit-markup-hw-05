@@ -440,6 +440,7 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+padding-bottom: 72px;
 }
 .second-context {
   font-weight: 500;
@@ -479,8 +480,46 @@ a {
 .link-socials.footer:focus {
   background-color: #31d0aa;
 }
+.subcribe-title{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+padding-bottom: 16px;
+}
+.email{
+  color: #fff;
+  border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+background-color: transparent;
+outline:transparent;
+padding: 8px 0 8px 16px;
 
 
+}
+.input-btn{
+  display: inline-flex;
+  gap: 24px;
+}
+.hero-button.footer{
+  display: flex;
+  width: 165px;
+height: 40px;
+align-items: center;
+justify-content: center;
+}
+.hero-button.footer .icon-send{
+  width: 24px;
+  height: 24px;
+}
 
 /*---- backdrop refion ---*/
 .backdrop{
@@ -546,13 +585,10 @@ transition: background-color, 250ms ease-in, border-color 250ms ease-in;
 .modal-btn:focus-visible {
   background-color: #404bbf;
   border-color: #404bbf;
-  color:#fff;
+  fill:#fff;
 }
 
-.modal-btn:hover .modal-btn-icon,
-.modal-btn-icon:focus-visible .modal-btn-icon {
-  color:#fff;
-}
+
   .modal-btn-icon{
   color: #2e2f42;
   width: 8px;
