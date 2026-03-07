@@ -609,7 +609,6 @@ transition: background-color 250ms ease-in, border-color 250ms ease-in;
 
 
   .modal-btn-icon{
-  fill: #2e2f42;
   width: 8px;
   height: 8px;
 }
@@ -654,10 +653,11 @@ transition: border-color 150ms ease-in;
   position: absolute;
   top: 50%;
   left: 16px;
-  transform: translateX(-50%)translateY(-50%);
+  transform: translateY(-50%);
   fill: #2e2f42;
   pointer-events: none;
-  transition: border-color 150ms ease-in;
+  transition: 150ms ease-in;
+  transition-property: color;
 }
 .feedback-input:focus + .feedback-icon{
   fill: #4d5ae5;
