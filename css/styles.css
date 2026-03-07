@@ -481,7 +481,7 @@ a {
   background-color: #31d0aa;
 }
 .footer-form{
-  display: flexbox;
+  display: inline-block;
   margin-left: auto;
   flex-wrap: wrap;
   
