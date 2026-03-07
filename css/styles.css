@@ -603,16 +603,20 @@ transition: background-color 250ms ease-in, border-color 250ms ease-in;
 
 
 .modal-btn:hover,
-.modal-btn:focus-visible {
+.modal-btn:focus {
   background-color: #404bbf;
   border-color: #404bbf;
-  fill:#fff;
 }
 
 
   .modal-btn-icon{
   width: 8px;
   height: 8px;
+  fill: #2e2f42;
+transition: fill 250ms ease-in;
+}
+.modal-btn:hover .modal-btn-icon, .modal-btn:focus .modal-btn-icon{
+  fill:#fff;
 }
 
 .modal-slogan{
